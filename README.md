@@ -1,16 +1,23 @@
-# React + Vite
+# JoblyQA | Full-Stack Job Finder Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**JoblyQA** is a real-time job search platform built for users in Qatar, allowing them to find and explore live job listings efficiently. The application leverages modern technologies like React, React Query, Supabase, and the JSearch API to deliver a seamless and interactive user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- **Real-Time Job Listings**: Integrates with the JSearch API from Rapida to provide up-to-date job postings.
+- **User Authentication**: Secure login and personalized experience using Supabase.
+- **Frontend**: Built in React with a polished UI.
+- **Efficient Data Management**: Uses React Query for optimized data fetching, caching, and state management.
+- **Direct Navigation**: Users can navigate directly from the app to the official job posting websites.
+- **Aggregated Live Data**: Provides a centralized platform to explore multiple job listings in Qatar.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React, React Query, Tailwind CSS 
+- **Backend / Database**: Supabase
+- **API Integration**: JSearch API (from Rapida)
+- **Authentication**: Supabase Auth
